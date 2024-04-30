@@ -731,6 +731,29 @@
          </data>
          <data key="d3" />
       </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff3">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff3</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:members31" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff3">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
       <node id="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
          <data key="d0">
             <y:ShapeNode>
@@ -743,7 +766,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first31" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
+    <edge id="eid_rdf:first32" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -754,7 +777,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty32" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination">
+    <edge id="eid_owl:onProperty33" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -765,19 +788,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff0">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7fee">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff0</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7fee</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest33" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff0">
+    <edge id="eid_rdf:rest34" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7fee">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -800,7 +823,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first34" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country">
+    <edge id="eid_rdf:first35" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -823,7 +846,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom35" source="nid_NULL" target="nid_xsd:boolean">
+    <edge id="eid_owl:allValuesFrom36" source="nid_NULL" target="nid_xsd:boolean">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -846,7 +869,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom36" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
+    <edge id="eid_owl:allValuesFrom37" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -869,12 +892,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty37" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin">
+    <edge id="eid_owl:onProperty38" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff9">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff9</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest39" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff9">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -892,7 +938,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty38" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType">
+    <edge id="eid_owl:onProperty40" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -903,7 +949,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass39" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City">
+    <edge id="eid_owl:onClass41" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -914,42 +960,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff3">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff6">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff3</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff6</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:members40" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff3">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff7">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff7</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest41" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff7">
+    <edge id="eid_rdf:rest42" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff6">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -972,7 +995,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onClass42" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview">
+    <edge id="eid_owl:onClass43" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -995,7 +1018,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty43" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended">
+    <edge id="eid_owl:onProperty44" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1006,19 +1029,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff4">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ffb">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff4</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ffb</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest44" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff4">
+    <edge id="eid_rdf:rest45" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ffb">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1041,7 +1064,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty45" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts">
+    <edge id="eid_owl:onProperty46" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1052,7 +1075,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass46" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner">
+    <edge id="eid_owl:onClass47" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1075,7 +1098,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first47" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass">
+    <edge id="eid_rdf:first48" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1098,7 +1121,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first48" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass">
+    <edge id="eid_rdf:first49" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1121,7 +1144,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onClass49" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline">
+    <edge id="eid_owl:onClass50" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1144,7 +1167,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty50" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity">
+    <edge id="eid_owl:onProperty51" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1155,7 +1178,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first51" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City">
+    <edge id="eid_rdf:first52" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1166,7 +1189,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty52" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff0">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff0</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest53" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff0">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:onProperty54" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1177,7 +1223,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:allValuesFrom53" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
+    <edge id="eid_owl:allValuesFrom55" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1200,35 +1246,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty54" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview">
+    <edge id="eid_owl:onProperty56" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7fee">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7fee</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest55" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7fee">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1246,35 +1269,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first56" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass">
+    <edge id="eid_rdf:first57" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ffa">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ffa</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest57" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ffa">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1314,19 +1314,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff9">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7fed">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff9</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7fed</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest60" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff9">
+    <edge id="eid_rdf:rest60" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7fed">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1371,6 +1371,29 @@
          </data>
          <data key="d3" />
       </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff8">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff8</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest63" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff8">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
       <node id="nid_rdf:nil">
          <data key="d0">
             <y:ShapeNode>
@@ -1383,7 +1406,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest63" source="nid_NULL" target="nid_rdf:nil">
+    <edge id="eid_rdf:rest64" source="nid_NULL" target="nid_rdf:nil">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1394,53 +1417,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ffb">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ffb</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest64" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ffb">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff6">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff6</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest65" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff6">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:onClass66" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
+    <edge id="eid_owl:onClass65" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1451,7 +1428,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty67" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText">
+    <edge id="eid_owl:onProperty66" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1462,12 +1439,104 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:someValuesFrom68" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight">
+    <edge id="eid_owl:someValuesFrom67" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff5">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff5</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest68" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff5">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ffa">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ffa</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest69" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ffa">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff2">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff2</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest70" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff2">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7fef">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7fef</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:members71" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7fef">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1485,35 +1554,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first69" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good">
+    <edge id="eid_rdf:first72" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7fef">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7fef</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:members70" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7fef">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1531,7 +1577,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty71" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights">
+    <edge id="eid_owl:onProperty73" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1542,7 +1588,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass72" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country">
+    <edge id="eid_owl:onClass74" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1553,7 +1599,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty73" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry">
+    <edge id="eid_owl:onProperty75" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1576,7 +1622,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first74" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass">
+    <edge id="eid_rdf:first76" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1587,30 +1633,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7fed">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7fed</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest75" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7fed">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_rdf:first76" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
+    <edge id="eid_rdf:first77" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1633,7 +1656,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onDataRange77" source="nid_NULL" target="nid_xsd:string">
+    <edge id="eid_owl:onDataRange78" source="nid_NULL" target="nid_xsd:string">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1644,53 +1667,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ffc">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ffc</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:members78" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ffc">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff1">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff1</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest79" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff1">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:onProperty80" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn">
+    <edge id="eid_owl:onProperty79" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1701,35 +1678,58 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff8">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ffc">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff8</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ffc</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest81" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff8">
+    <edge id="eid_owl:members80" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ffc">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onDataRange82" source="nid_NULL" target="nid_xsd:boolean">
+    <edge id="eid_owl:onDataRange81" source="nid_NULL" target="nid_xsd:boolean">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onDataRange</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff7">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff7</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest82" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff7">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1769,35 +1769,35 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff5">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff5</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest85" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff5">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:onProperty86" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy">
+    <edge id="eid_owl:onProperty85" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff4">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff4</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest86" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff4">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1825,29 +1825,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_-7e8f8825:18f2f9c4e2e:-7ff2">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-7e8f8825:18f2f9c4e2e:-7ff2</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest89" source="nid_NULL" target="nid_-7e8f8825:18f2f9c4e2e:-7ff2">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent">
          <data key="d0">
             <y:ShapeNode>
@@ -1860,7 +1837,18 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first90" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent">
+    <edge id="eid_rdf:first89" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdf:first90" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1893,12 +1881,24 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdf:first93" source="nid_NULL" target="nid_http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline">
+      <node id="nid_-73fe8be6:18f2fa29e5e:-7ff1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">-73fe8be6:18f2fa29e5e:-7ff1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest93" source="nid_NULL" target="nid_-73fe8be6:18f2fa29e5e:-7ff1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
