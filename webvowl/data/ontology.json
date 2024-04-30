@@ -1,0 +1,2138 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey" ],
+    "title" : {
+      "en" : "Airlines Satisfaction Suveys Ontology"
+    },
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "description" : {
+      "en" : "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."
+    },
+    "other" : {
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights.",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Airlines Satisfaction Suveys Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "20",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://www.merriam-webster.com/dictionary/excellent",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Excellent",
+      "en" : "Excellent"
+    },
+    "comment" : {
+      "en" : "Very good of its kind"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SatisfactionLevel",
+      "en" : "Satisfaction Level"
+    },
+    "subClasses" : [ "0", "12", "13" ],
+    "comment" : {
+      "en" : "Inferred classification of the level of satisfaction based on the survey rating."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PremiumEconomyClass",
+      "en" : "PremiumEconomyClass"
+    },
+    "comment" : {
+      "en" : "Represents an upgraded for the economic, offerings services between economy and business class"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/International_flight",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InternationalFlight",
+      "en" : "International Flight"
+    },
+    "comment" : {
+      "en" : "An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/City",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "comment" : {
+      "en" : "A relatively large and permanent settlement, particularly a large urban settlement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EconomyClass",
+      "en" : "EconomyClass"
+    },
+    "comment" : {
+      "en" : "Represents a standard seating class with basic services for general passengers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://www.merriam-webster.com/dictionary/good",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Good",
+      "en" : "Good"
+    },
+    "comment" : {
+      "en" : "Of a favorable character or tendency"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/page/Survey_(human_research)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Survey",
+      "en" : "Survey"
+    },
+    "comment" : {
+      "en" : "In research of human subjects, a survey is a list of questions aimed for extracting specific data from a particular group of people. Surveys may be conducted by phone, mail, via the internet, and also at street corners or in malls. Surveys are used to gather or gain knowledge in fields such as social research and demography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/page/Calendar_date",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Date",
+      "undefined" : "Date"
+    },
+    "comment" : {
+      "en" : "Represents a date associated with an event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightType",
+      "en" : "Flight type"
+    },
+    "subClasses" : [ "82", "60" ],
+    "comment" : {
+      "en" : "Inferred classification of flight types based on the relationship between the country of origin and the country of destination of the flight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Country",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Country"
+    },
+    "comment" : {
+      "en" : "The region where the entity  is located or where the people are from"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/Domestic_flight",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DomesticFlight",
+      "en" : "Domestic Flight"
+    },
+    "comment" : {
+      "en" : "A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country."
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "20",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://www.merriam-webster.com/dictionary/poor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Poor",
+      "en" : "Poor"
+    },
+    "comment" : {
+      "en" : "Less than adequate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TravellerType",
+      "undefined" : "TravellerType"
+    },
+    "comment" : {
+      "en" : "Passenger classification based on travel puposes and group size"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Airline",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Airline",
+      "en" : "Airline"
+    },
+    "comment" : {
+      "en" : "An organization carrying passengers by airplanes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FirstClass",
+      "en" : "FirstClass"
+    },
+    "comment" : {
+      "en" : "Represents the best class of seats with special services for first-class passengers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight",
+      "undefined" : "Flight"
+    },
+    "comment" : {
+      "en" : "Represents the flight operated by an airline on a date, given a especify airliner with a set of origin, destination, and possible stopover cities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessClass",
+      "en" : "BussinesClass"
+    },
+    "comment" : {
+      "en" : "Represents a class of seats that offers services aimed at business travelers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Airliner",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Airliner",
+      "en" : "Airliner"
+    },
+    "comment" : {
+      "en" : "An airliner is a type of aircraft for transporting passengers and air cargo. Such aircraft are most often operated by airlines. Although the definition of an airliner can vary from country to country, an airliner is typically defined as an airplane intended for carrying multiple passengers or cargo in commercial service. The largest of them are wide-body jets which are also called twin-aisle because they generally have two separate aisles running from the front to the back of the passenger cabin. These are usually used for long-haul flights between airline hubs and major cities. A smaller, more common class of airliners is the narrow-body or single-aisle. These are generally used for short to medium-distance flights with fewer passengers than their wide-body counterparts"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "http://dbpedia.org/resource/User_review",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://www.wikidata.org/entity/Q20058247",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UserReview",
+      "en" : "User review"
+    },
+    "comment" : {
+      "undefined" : "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service. User reviews are commonly provided by consumers who volunteer to write the review, rather than professionals who are paid to evaluate the product or service. User reviews might be compared to professional nonprofit reviews from a consumer organization, or to promotional reviews from an advertiser or company marketing a product. Growth of social media platforms has enabled the facilitation of interaction between consumers after a review has been placed on online communities such as blogs, internet forums or other popular platforms"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Airline_seat",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Seat",
+      "undefined" : "Seat"
+    },
+    "subClasses" : [ "62", "14", "87", "95" ],
+    "comment" : {
+      "en" : "An airline seat is a seat on an airliner in which passengers are accommodated for the duration of the journey. Such seats are usually arranged in rows running across the airplane's fuselage. A diagram of such seats in an aircraft is called an aircraft seat map"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "75",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "85",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "88",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "89",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "100",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "106",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "119",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "120",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "121",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "122",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "123",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin",
+    "inverse" : "5",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasOrigin",
+      "en" : "has origin"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the flight origin city"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "2"
+  }, {
+    "range" : "8",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight",
+    "inverse" : "11",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasFlight",
+      "en" : "has flight"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Associates survey with a flight"
+    },
+    "attributes" : [ "object", "inverse functional", "functional", "external" ],
+    "id" : "9"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "19",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "20",
+    "subproperty" : [ "2", "21", "22", "23", "24", "25", "9", "26", "27", "28", "29", "30", "31", "32", "33", "34", "11", "35", "36", "37", "38", "39", "40", "41", "42", "5", "43", "44", "45", "46", "47", "48" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts",
+    "inverse" : "43",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasAirclafts",
+      "en" : "has aircrafts"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "49",
+    "comment" : {
+      "en" : "Defines that an Airline has airliners"
+    },
+    "attributes" : [ "object", "inverse functional", "asymmetric", "external" ],
+    "id" : "31"
+  }, {
+    "range" : "17",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isSatisfiedLevel",
+      "en" : "is satisfied level"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "Identifies the satisfaction level for a survey"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "isPublishedOn",
+      "en" : "is published on"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Indicates the date on the survey is published"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "range" : "19",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "8",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "3",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "16",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "17",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isTypeOf",
+      "en" : "is type of"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "19",
+    "comment" : {
+      "en" : "Identifies the tipe of traveller asigned on the flight"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "range" : "8",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "3",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType",
+    "inverse" : "34",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasType",
+      "en" : "has type"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Defines the type of traveller is the passenger"
+    },
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasCity",
+      "en" : "has city"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "52",
+    "comment" : {
+      "en" : "Defines that a country includes the specified city."
+    },
+    "attributes" : [ "object", "inverse functional", "asymmetric", "external" ],
+    "id" : "41"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "66",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Recommender_system",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "recommended",
+      "en" : "recommended"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "The suggestion made by the passenger about the service"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "65"
+  }, {
+    "range" : "19",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "17",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "19",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "16",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "52",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "16",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "8",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "3",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "en" : "has date"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the date on which a flight takes place"
+    },
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview",
+    "inverse" : "44",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasReview",
+      "en" : "has review"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Defines that a survey includes a review"
+    },
+    "attributes" : [ "object", "inverse functional", "functional", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "isOperatedBy",
+      "en" : "is operated by"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Indicates that the flight is operated by the airline"
+    },
+    "attributes" : [ "object", "allValues", "functional", "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isOnSurvey",
+      "en" : "is On Survey"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "52",
+    "comment" : {
+      "en" : "Defines that a country can be identified in a surveys"
+    },
+    "attributes" : [ "object", "inverse functional", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin",
+    "inverse" : "5",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasOrigin",
+      "en" : "has origin"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the flight origin city"
+    },
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "dateValue",
+      "en" : "date value"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "The value of the date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
+  }, {
+    "range" : "12",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "60",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "13",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry",
+    "inverse" : "41",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "belongsToCountry",
+      "en" : "belongs to country"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Specifies the country to which a city belongs"
+    },
+    "attributes" : [ "object", "allValues", "functional", "asymmetric", "external" ],
+    "id" : "85"
+  }, {
+    "range" : "14",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights",
+    "inverse" : "39",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "areFlights",
+      "en" : "are Flights"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "16",
+    "comment" : {
+      "en" : "Indicates that the flight takes place on a date"
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasCity",
+      "en" : "has city"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "52",
+    "comment" : {
+      "en" : "Defines that a country includes the specified city."
+    },
+    "attributes" : [ "object", "allValues", "inverse functional", "asymmetric", "external" ],
+    "id" : "89"
+  }, {
+    "range" : "14",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "87",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "verified",
+      "en" : "verified"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "Confirmation that the passenger took the related flight"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "en" : "has date"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the date on which a flight takes place"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "isOwnedBy",
+      "en" : "is owned by"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "50",
+    "comment" : {
+      "en" : "Indicates that the airliner is property of an airline"
+    },
+    "attributes" : [ "object", "functional", "asymmetric", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isPartOf",
+      "en" : "is part of"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Identifies the user review belongs to a Survey"
+    },
+    "attributes" : [ "object", "inverse functional", "functional", "external" ],
+    "id" : "44"
+  }, {
+    "range" : "14",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "isOwnedBy",
+      "en" : "is owned by"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "50",
+    "comment" : {
+      "en" : "Indicates that the airliner is property of an airline"
+    },
+    "attributes" : [ "object", "allValues", "functional", "asymmetric", "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination",
+    "inverse" : "25",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasDestination",
+      "en" : "has destination"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the flight destination city"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "45"
+  }, {
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "87",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "62",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "17",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "104",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/property/cityName",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cityName",
+      "en" : "City Name"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The textual name of the city"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "range" : "19",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "17",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry",
+    "inverse" : "22",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "hasCountry",
+      "en" : "has Country"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Identifies the passenger's country of origin (nationality)"
+    },
+    "attributes" : [ "object", "functional", "asymmetric", "external" ],
+    "id" : "47"
+  }, {
+    "range" : "19",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "isDefinedFor",
+      "en" : "is defined for"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Indicates that an airliner does a flights"
+    },
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isFlightType",
+      "en" : "is flight type"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "61",
+    "comment" : {
+      "en" : "Identifies the flight type classification related to a survey."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings",
+    "inverse" : "32",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasPublishings",
+      "en" : "has publishings"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "16",
+    "comment" : {
+      "en" : "Defines if a date has Surveys publisheds"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview",
+    "inverse" : "44",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasReview",
+      "en" : "has review"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Defines that a survey includes a review"
+    },
+    "attributes" : [ "object", "allValues", "inverse functional", "functional", "external" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType",
+    "inverse" : "34",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasType",
+      "en" : "has type"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Defines the type of traveller is the passenger"
+    },
+    "attributes" : [ "object", "allValues", "functional", "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights",
+    "inverse" : "37",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasFlights",
+      "en" : "has flights"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "49",
+    "comment" : {
+      "en" : "Identifies that an airline has some flights"
+    },
+    "attributes" : [ "object", "inverse functional", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover",
+    "inverse" : "46",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasStopover",
+      "en" : "has stopover"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines if the flight has stopovers"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isOriginated",
+      "en" : "is originated"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Defines if a city is origin of a flight"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "verified",
+      "en" : "verified"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Confirmation that the passenger took the related flight"
+    },
+    "attributes" : [ "allValues", "functional", "external", "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "114",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://dbpedia.org/resource/Recommender_system",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "recommended",
+      "en" : "recommended"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "The suggestion made by the passenger about the service"
+    },
+    "attributes" : [ "allValues", "functional", "external", "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "isDefinedFor",
+      "en" : "is defined for"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Indicates that an airliner does a flights"
+    },
+    "attributes" : [ "object", "allValues", "functional", "external" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover",
+    "inverse" : "46",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasStopover",
+      "en" : "has stopover"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines if the flight has stopovers"
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "isPublishedOn",
+      "en" : "is published on"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Indicates the date on the survey is published"
+    },
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination",
+    "inverse" : "25",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasDestination",
+      "en" : "has destination"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines the flight destination city"
+    },
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType",
+    "inverse" : "27",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasFlightType",
+      "en" : "has flight type"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Relate a survey to the type of flight"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isDestination",
+      "en" : "is destination"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Defines if a city is a flight destination"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
+  }, {
+    "range" : "52",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasAFligh",
+      "en" : "has a flight"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "50",
+    "comment" : {
+      "en" : "Identifies that a airliner has a flight defined"
+    },
+    "attributes" : [ "object", "inverse functional", "external" ],
+    "id" : "26"
+  }, {
+    "range" : "16",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "3",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "8",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel",
+    "inverse" : "33",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasSatisfactionLevel",
+      "en" : "has satisfaction level"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Relates a survey to a level of satisfaction"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "29"
+  }, {
+    "range" : "19",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "17",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "4",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "52",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry",
+    "inverse" : "41",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "belongsToCountry",
+      "en" : "belongs to country"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Specifies the country to which a city belongs"
+    },
+    "attributes" : [ "object", "functional", "asymmetric", "external" ],
+    "id" : "30"
+  }, {
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "4",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "111",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/property/countryName",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "countryName",
+      "en" : "country name"
+    },
+    "domain" : "52",
+    "comment" : {
+      "en" : "The textual name of the country"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "ratingValue",
+      "en" : "rating value"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "The value of the rating"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isReferredOn",
+      "en" : "is refered on"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Defines that a flight is refered on a survey"
+    },
+    "attributes" : [ "object", "inverse functional", "functional", "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "115",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/property/body",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bodyText",
+      "en" : "body"
+    },
+    "cardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "en" : "The review body text"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights",
+    "inverse" : "39",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "areFlights",
+      "en" : "are Flights"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "16",
+    "comment" : {
+      "en" : "Indicates that the flight takes place on a date"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "35"
+  }, {
+    "range" : "8",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "8",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "isOperatedBy",
+      "en" : "is operated by"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Indicates that the flight is operated by the airline"
+    },
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat",
+    "inverse" : "48",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasSeat",
+      "en" : "has seat"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "Identifies the seat tipe that a passenger has on the defined flight"
+    },
+    "attributes" : [ "object", "inverse functional", "external" ],
+    "id" : "40"
+  }, {
+    "range" : "8",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "61",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "110",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/property/title",
+        "type" : "label"
+      } ],
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/ontology/originalTitle",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "titleText",
+      "en" : "title"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "The review title text"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isStopevered",
+      "en" : "is stopovered"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Defines if a city is stopover on a flight"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "46"
+  }, {
+    "range" : "8",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight",
+    "baseIri" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isOnFlight",
+      "en" : "is on Flight"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "Identifies the seat tipe defined on the flight"
+    },
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "48"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  } ]
+}
