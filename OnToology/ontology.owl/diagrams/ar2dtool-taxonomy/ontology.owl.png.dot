@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass" ; /*classes style*/
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+
+}

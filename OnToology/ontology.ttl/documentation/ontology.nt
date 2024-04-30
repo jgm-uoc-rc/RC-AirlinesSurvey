@@ -1,0 +1,774 @@
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/abstract> "This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/description> "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/title> "Airlines Satisfaction Suveys Ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the flight takes place on a date"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> <http://www.w3.org/2000/01/rdf-schema#label> "are Flights"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the country to which a city belongs"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to country"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies that a airliner has a flight defined"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> <http://www.w3.org/2000/01/rdf-schema#label> "has a flight"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that an Airline has airliners"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> <http://www.w3.org/2000/01/rdf-schema#label> "has aircrafts"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that a country includes the specified city."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> <http://www.w3.org/2000/01/rdf-schema#label> "has city"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the passenger's country of origin (nationality)"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "has Country"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the date on which a flight takes place"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> <http://www.w3.org/2000/01/rdf-schema#label> "has date"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the flight destination city"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> <http://www.w3.org/2000/01/rdf-schema#label> "has destination"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates survey with a flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> <http://www.w3.org/2000/01/rdf-schema#label> "has flight"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relate a survey to the type of flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> <http://www.w3.org/2000/01/rdf-schema#label> "has flight type"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies that an airline has some flights"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> <http://www.w3.org/2000/01/rdf-schema#label> "has flights"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the flight origin city"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "has origin"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines if a date has Surveys publisheds"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> <http://www.w3.org/2000/01/rdf-schema#label> "has publishings"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that a survey includes a review"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "has review"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a survey to a level of satisfaction"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has satisfaction level"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the seat tipe that a passenger has on the defined flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> <http://www.w3.org/2000/01/rdf-schema#label> "has seat"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines if the flight has stopovers"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> <http://www.w3.org/2000/01/rdf-schema#label> "has stopover"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the type of traveller is the passenger"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> <http://www.w3.org/2000/01/rdf-schema#label> "has type"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that an airliner does a flights"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> <http://www.w3.org/2000/01/rdf-schema#label> "is defined for"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines if a city is a flight destination"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> <http://www.w3.org/2000/01/rdf-schema#label> "is destination"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the flight type classification related to a survey."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> <http://www.w3.org/2000/01/rdf-schema#label> "is flight type"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the seat tipe defined on the flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> <http://www.w3.org/2000/01/rdf-schema#label> "is on Flight"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that a country can be identified in a surveys"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> <http://www.w3.org/2000/01/rdf-schema#label> "is On Survey"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the flight is operated by the airline"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is operated by"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines if a city is origin of a flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> <http://www.w3.org/2000/01/rdf-schema#label> "is originated"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the airliner is property of an airline"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is owned by"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the user review belongs to a Survey" .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "is part of"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the date on the survey is published"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> <http://www.w3.org/2000/01/rdf-schema#label> "is published on"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that a flight is refered on a survey"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> <http://www.w3.org/2000/01/rdf-schema#label> "is refered on"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the satisfaction level for a survey"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> <http://www.w3.org/2000/01/rdf-schema#label> "is satisfied level"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines if a city is stopover on a flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> <http://www.w3.org/2000/01/rdf-schema#label> "is stopovered"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the tipe of traveller asigned on the flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is type of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#comment> "The review body text"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://dbpedia.org/property/body"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> <http://www.w3.org/2000/01/rdf-schema#label> "body"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#comment> "The textual name of the city"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://dbpedia.org/property/cityName"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> <http://www.w3.org/2000/01/rdf-schema#label> "City Name"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#comment> "The textual name of the country"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://dbpedia.org/property/countryName"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> <http://www.w3.org/2000/01/rdf-schema#label> "country name"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the date"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> <http://www.w3.org/2000/01/rdf-schema#label> "date value"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the rating"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> <http://www.w3.org/2000/01/rdf-schema#label> "rating value"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#comment> "The suggestion made by the passenger about the service"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#label> "recommended"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://dbpedia.org/resource/Recommender_system"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/ontology/originalTitle"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#comment> "The review title text"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://dbpedia.org/property/title"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> <http://www.w3.org/2000/01/rdf-schema#label> "title"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/2000/01/rdf-schema#comment> "Confirmation that the passenger took the related flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> <http://www.w3.org/2000/01/rdf-schema#label> "verified"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization carrying passengers by airplanes"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Airline"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airliner"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.w3.org/2000/01/rdf-schema#comment> "An airliner is a type of aircraft for transporting passengers and air cargo. Such aircraft are most often operated by airlines. Although the definition of an airliner can vary from country to country, an airliner is typically defined as an airplane intended for carrying multiple passengers or cargo in commercial service. The largest of them are wide-body jets which are also called twin-aisle because they generally have two separate aisles running from the front to the back of the passenger cabin. These are usually used for long-haul flights between airline hubs and major cities. A smaller, more common class of airliners is the narrow-body or single-aisle. These are generally used for short to medium-distance flights with fewer passengers than their wide-body counterparts"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> <http://www.w3.org/2000/01/rdf-schema#label> "Airliner"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a class of seats that offers services aimed at business travelers."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> <http://www.w3.org/2000/01/rdf-schema#label> "BussinesClass"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/City"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.w3.org/2000/01/rdf-schema#comment> "A relatively large and permanent settlement, particularly a large urban settlement"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Country"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "The region where the entity  is located or where the people are from"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Calendar_date"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a date associated with an event"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date" .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://en.wikipedia.org/wiki/Domestic_flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> <http://www.w3.org/2000/01/rdf-schema#label> "Domestic Flight"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a standard seating class with basic services for general passengers."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> <http://www.w3.org/2000/01/rdf-schema#label> "EconomyClass"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> <http://www.w3.org/2000/01/rdf-schema#comment> "Very good of its kind"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.merriam-webster.com/dictionary/excellent"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> <http://www.w3.org/2000/01/rdf-schema#label> "Excellent"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the best class of seats with special services for first-class passengers"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> <http://www.w3.org/2000/01/rdf-schema#label> "FirstClass"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+_:genid15 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid16 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+_:genid19 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the flight operated by an airline on a date, given a especify airliner with a set of origin, destination, and possible stopover cities."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight" .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred classification of flight types based on the relationship between the country of origin and the country of destination of the flight."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> <http://www.w3.org/2000/01/rdf-schema#label> "Flight type"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> <http://www.w3.org/2000/01/rdf-schema#comment> "Of a favorable character or tendency"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.merriam-webster.com/dictionary/good"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> <http://www.w3.org/2000/01/rdf-schema#label> "Good"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://en.wikipedia.org/wiki/International_flight"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> <http://www.w3.org/2000/01/rdf-schema#label> "International Flight"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> <http://www.w3.org/2000/01/rdf-schema#comment> "Less than adequate"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.merriam-webster.com/dictionary/poor"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> <http://www.w3.org/2000/01/rdf-schema#label> "Poor"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an upgraded for the economic, offerings services between economy and business class"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> <http://www.w3.org/2000/01/rdf-schema#label> "PremiumEconomyClass"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred classification of the level of satisfaction based on the survey rating."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Satisfaction Level"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline_seat"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "An airline seat is a seat on an airliner in which passengers are accommodated for the duration of the journey. Such seats are usually arranged in rows running across the airplane's fuselage. A diagram of such seats in an aircraft is called an aircraft seat map"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Seat" .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+_:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> .
+_:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+_:genid25 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Survey_(human_research)"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "In research of human subjects, a survey is a list of questions aimed for extracting specific data from a particular group of people. Surveys may be conducted by phone, mail, via the internet, and also at street corners or in malls. Surveys are used to gather or gain knowledge in fields such as social research and demography"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Survey"@en .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> <http://www.w3.org/2000/01/rdf-schema#comment> "Passenger classification based on travel puposes and group size"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> <http://www.w3.org/2000/01/rdf-schema#label> "TravellerType" .
+# 
+# http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service. User reviews are commonly provided by consumers who volunteer to write the review, rather than professionals who are paid to evaluate the product or service. User reviews might be compared to professional nonprofit reviews from a consumer organization, or to promotional reviews from an advertiser or company marketing a product. Growth of social media platforms has enabled the facilitation of interaction between consumers after a review has been placed on online communities such as blogs, internet forums or other popular platforms" .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://dbpedia.org/resource/User_review"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/2000/01/rdf-schema#label> "User review"@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://www.wikidata.org/entity/Q20058247"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://dbpedia.org/resource/Bahrain> <http://www.w3.org/2000/01/rdf-schema#label> "Bahrain" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid31 <http://www.w3.org/2002/07/owl#members> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid41 <http://www.w3.org/2002/07/owl#members> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid46 <http://www.w3.org/2002/07/owl#members> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
