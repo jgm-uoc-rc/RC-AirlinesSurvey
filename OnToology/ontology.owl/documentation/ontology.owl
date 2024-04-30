@@ -1,0 +1,1170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey#"
+     xml:base="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs1="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0"/>
+        <dc:abstract xml:lang="en">This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights.</dc:abstract>
+        <dc:description xml:lang="en">This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys.</dc:description>
+        <dc:title xml:lang="en">Airlines Satisfaction Suveys Ontology</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Indicates that the flight takes place on a date</rdfs:comment>
+        <rdfs:label xml:lang="en">are Flights</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+        <rdfs:comment xml:lang="en">Specifies the country to which a city belongs</rdfs:comment>
+        <rdfs:label xml:lang="en">belongs to country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Identifies that a airliner has a flight defined</rdfs:comment>
+        <rdfs:label xml:lang="en">has a flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+        <rdfs:comment xml:lang="en">Defines that an Airline has airliners</rdfs:comment>
+        <rdfs:label xml:lang="en">has aircrafts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:comment xml:lang="en">Defines that a country includes the specified city.</rdfs:comment>
+        <rdfs:label xml:lang="en">has city</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+        <rdfs:comment xml:lang="en">Identifies the passenger&apos;s country of origin (nationality)</rdfs:comment>
+        <rdfs:label xml:lang="en">has Country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+        <rdfs:comment xml:lang="en">Defines the date on which a flight takes place</rdfs:comment>
+        <rdfs:label xml:lang="en">has date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:comment xml:lang="en">Defines the flight destination city</rdfs:comment>
+        <rdfs:label xml:lang="en">has destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Associates survey with a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">has flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType"/>
+        <rdfs:comment xml:lang="en">Relate a survey to the type of flight</rdfs:comment>
+        <rdfs:label xml:lang="en">has flight type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Identifies that an airline has some flights</rdfs:comment>
+        <rdfs:label xml:lang="en">has flights</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:comment xml:lang="en">Defines the flight origin city</rdfs:comment>
+        <rdfs:label xml:lang="en">has origin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Defines if a date has Surveys publisheds</rdfs:comment>
+        <rdfs:label xml:lang="en">has publishings</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+        <rdfs:comment xml:lang="en">Defines that a survey includes a review</rdfs:comment>
+        <rdfs:label xml:lang="en">has review</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"/>
+        <rdfs:comment xml:lang="en">Relates a survey to a level of satisfaction</rdfs:comment>
+        <rdfs:label xml:lang="en">has satisfaction level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:comment xml:lang="en">Identifies the seat tipe that a passenger has on the defined flight</rdfs:comment>
+        <rdfs:label xml:lang="en">has seat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:comment xml:lang="en">Defines if the flight has stopovers</rdfs:comment>
+        <rdfs:label xml:lang="en">has stopover</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"/>
+        <rdfs:comment xml:lang="en">Defines the type of traveller is the passenger</rdfs:comment>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+        <rdfs:comment xml:lang="en">Indicates that an airliner does a flights</rdfs:comment>
+        <rdfs:label xml:lang="en">is defined for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Defines if a city is a flight destination</rdfs:comment>
+        <rdfs:label xml:lang="en">is destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Identifies the flight type classification related to a survey.</rdfs:comment>
+        <rdfs:label xml:lang="en">is flight type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Identifies the seat tipe defined on the flight</rdfs:comment>
+        <rdfs:label xml:lang="en">is on Flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Defines that a country can be identified in a surveys</rdfs:comment>
+        <rdfs:label xml:lang="en">is On Survey</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+        <rdfs:comment xml:lang="en">Indicates that the flight is operated by the airline</rdfs:comment>
+        <rdfs:label xml:lang="en">is operated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Defines if a city is origin of a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">is originated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+        <rdfs:comment xml:lang="en">Indicates that the airliner is property of an airline</rdfs:comment>
+        <rdfs:label xml:lang="en">is owned by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment>Identifies the user review belongs to a Survey</rdfs:comment>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+        <rdfs:comment xml:lang="en">Indicates the date on the survey is published</rdfs:comment>
+        <rdfs:label xml:lang="en">is published on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Defines that a flight is refered on a survey</rdfs:comment>
+        <rdfs:label xml:lang="en">is refered on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Identifies the satisfaction level for a survey</rdfs:comment>
+        <rdfs:label xml:lang="en">is satisfied level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+        <rdfs:comment xml:lang="en">Defines if a city is stopover on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">is stopovered</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:comment xml:lang="en">Identifies the tipe of traveller asigned on the flight</rdfs:comment>
+        <rdfs:label xml:lang="en">is type of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The review body text</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/property/body</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">body</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The textual name of the city</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/property/cityName</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">City Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The textual name of the country</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/property/countryName</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">country name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">The value of the date</rdfs:comment>
+        <rdfs:label xml:lang="en">date value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The value of the rating</rdfs:comment>
+        <rdfs:label xml:lang="en">rating value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">The suggestion made by the passenger about the service</rdfs:comment>
+        <rdfs:label xml:lang="en">recommended</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://dbpedia.org/resource/Recommender_system</rdfs:seeAlso>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/ontology/originalTitle</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">The review title text</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/property/title</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Confirmation that the passenger took the related flight</rdfs:comment>
+        <rdfs:label xml:lang="en">verified</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/resource/Airline</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">An organization carrying passengers by airplanes</rdfs:comment>
+        <rdfs:label xml:lang="en">Airline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/resource/Airliner</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">An airliner is a type of aircraft for transporting passengers and air cargo. Such aircraft are most often operated by airlines. Although the definition of an airliner can vary from country to country, an airliner is typically defined as an airplane intended for carrying multiple passengers or cargo in commercial service. The largest of them are wide-body jets which are also called twin-aisle because they generally have two separate aisles running from the front to the back of the passenger cabin. These are usually used for long-haul flights between airline hubs and major cities. A smaller, more common class of airliners is the narrow-body or single-aisle. These are generally used for short to medium-distance flights with fewer passengers than their wide-body counterparts</rdfs:comment>
+        <rdfs:label xml:lang="en">Airliner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:comment xml:lang="en">Represents a class of seats that offers services aimed at business travelers.</rdfs:comment>
+        <rdfs:label xml:lang="en">BussinesClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/resource/City</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">A relatively large and permanent settlement, particularly a large urban settlement</rdfs:comment>
+        <rdfs:label>City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/resource/Country</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">The region where the entity  is located or where the people are from</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/page/Calendar_date</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">Represents a date associated with an event</rdfs:comment>
+        <rdfs:label>Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight"/>
+        <rdfs:comment xml:lang="en">A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://en.wikipedia.org/wiki/Domestic_flight</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Domestic Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:comment xml:lang="en">Represents a standard seating class with basic services for general passengers.</rdfs:comment>
+        <rdfs:label xml:lang="en">EconomyClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"/>
+        <rdfs:comment xml:lang="en">Very good of its kind</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://www.merriam-webster.com/dictionary/excellent</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Excellent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:comment xml:lang="en">Represents the best class of seats with special services for first-class passengers</rdfs:comment>
+        <rdfs:label xml:lang="en">FirstClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Represents the flight operated by an airline on a date, given a especify airliner with a set of origin, destination, and possible stopover cities.</rdfs:comment>
+        <rdfs:label>Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Inferred classification of flight types based on the relationship between the country of origin and the country of destination of the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Flight type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"/>
+        <rdfs:comment xml:lang="en">Of a favorable character or tendency</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://www.merriam-webster.com/dictionary/good</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Good</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType"/>
+        <rdfs:comment xml:lang="en">An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://en.wikipedia.org/wiki/International_flight</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">International Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"/>
+        <rdfs:comment xml:lang="en">Less than adequate</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://www.merriam-webster.com/dictionary/poor</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+        <rdfs:comment xml:lang="en">Represents an upgraded for the economic, offerings services between economy and business class</rdfs:comment>
+        <rdfs:label xml:lang="en">PremiumEconomyClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel">
+        <rdfs:comment xml:lang="en">Inferred classification of the level of satisfaction based on the survey rating.</rdfs:comment>
+        <rdfs:label xml:lang="en">Satisfaction Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat">
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/resource/Airline_seat</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">An airline seat is a seat on an airliner in which passengers are accommodated for the duration of the journey. Such seats are usually arranged in rows running across the airplane&apos;s fuselage. A diagram of such seats in an aircraft is called an aircraft seat map</rdfs:comment>
+        <rdfs:label>Seat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs1:sameAs xml:lang="en">https://dbpedia.org/page/Survey_(human_research)</rdfs1:sameAs>
+        <rdfs:comment xml:lang="en">In research of human subjects, a survey is a list of questions aimed for extracting specific data from a particular group of people. Surveys may be conducted by phone, mail, via the internet, and also at street corners or in malls. Surveys are used to gather or gain knowledge in fields such as social research and demography</rdfs:comment>
+        <rdfs:label xml:lang="en">Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType">
+        <rdfs:comment xml:lang="en">Passenger classification based on travel puposes and group size</rdfs:comment>
+        <rdfs:label>TravellerType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service. User reviews are commonly provided by consumers who volunteer to write the review, rather than professionals who are paid to evaluate the product or service. User reviews might be compared to professional nonprofit reviews from a consumer organization, or to promotional reviews from an advertiser or company marketing a product. Growth of social media platforms has enabled the facilitation of interaction between consumers after a review has been placed on online communities such as blogs, internet forums or other popular platforms</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/resource/User_review</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">User review</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://www.wikidata.org/entity/Q20058247</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Bahrain">
+        <rdfs:label>Bahrain</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,264 @@
+{
+  "@context" : {
+    "DomesticFlight" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "isOperatedBy" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy",
+      "@type" : "@id"
+    },
+    "isOriginated" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated",
+      "@type" : "@id"
+    },
+    "areFlights" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights",
+      "@type" : "@id"
+    },
+    "titleText" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Airliner" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner"
+    },
+    "hasAirclafts" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country"
+    },
+    "hasSatisfactionLevel" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel",
+      "@type" : "@id"
+    },
+    "Poor" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "FlightType" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "isReferredOn" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn",
+      "@type" : "@id"
+    },
+    "isSatisfiedLevel" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel",
+      "@type" : "@id"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination",
+      "@type" : "@id"
+    },
+    "InternationalFlight" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasSeat" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf",
+      "@type" : "@id"
+    },
+    "hasReview" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview",
+      "@type" : "@id"
+    },
+    "countryName" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FirstClass" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass"
+    },
+    "PremiumEconomyClass" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass"
+    },
+    "isPublishedOn" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn",
+      "@type" : "@id"
+    },
+    "Good" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date"
+    },
+    "hasDate" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate",
+      "@type" : "@id"
+    },
+    "Excellent" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent"
+    },
+    "hasStopover" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "verified" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasFlights" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights",
+      "@type" : "@id"
+    },
+    "hasFlight" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight",
+      "@type" : "@id"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey"
+    },
+    "bodyText" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isDestination" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination",
+      "@type" : "@id"
+    },
+    "isOnSurvey" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "isTypeOf" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf",
+      "@type" : "@id"
+    },
+    "ratingValue" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "hasCity" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity",
+      "@type" : "@id"
+    },
+    "isStopevered" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered",
+      "@type" : "@id"
+    },
+    "dateValue" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "isFlightType" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType",
+      "@type" : "@id"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight"
+    },
+    "isOnFlight" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "hasAFligh" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh",
+      "@type" : "@id"
+    },
+    "isDefinedFor" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor",
+      "@type" : "@id"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City"
+    },
+    "cityName" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "recommended" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "EconomyClass" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin",
+      "@type" : "@id"
+    },
+    "belongsToCountry" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasFlightType" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType",
+      "@type" : "@id"
+    },
+    "BusinessClass" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass"
+    },
+    "isOwnedBy" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy",
+      "@type" : "@id"
+    },
+    "hasPublishings" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings",
+      "@type" : "@id"
+    },
+    "UserReview" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview"
+    },
+    "hasCountry" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "TravellerType" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType"
+    },
+    "SatisfactionLevel" : {
+      "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel"
+    }
+  }
+}
