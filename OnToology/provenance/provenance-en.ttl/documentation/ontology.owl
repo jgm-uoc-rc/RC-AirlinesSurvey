@@ -5,7 +5,6 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
@@ -53,13 +52,6 @@
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/name -->
-
-
-    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -69,13 +61,6 @@
      -->
 
 
-    
-
-
-    <!-- http://www.w3.org/ns/prov#Agent -->
-
-
-    <Class rdf:about="http://www.w3.org/ns/prov#Agent"/>
     
 
 
@@ -98,27 +83,16 @@
     
 
 
-    <!-- file:/home/ahmad/repos/j.gm.uoc.rc@gmail.com/provenance/provenance-en.ttlagent0 -->
+    <!-- https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/1.0.0 -->
 
 
-    <NamedIndividual rdf:about="file:/home/ahmad/repos/j.gm.uoc.rc@gmail.com/provenance/provenance-en.ttlagent0">
-        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-        <foaf:name>Jose García</foaf:name>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0 -->
-
-
-    <NamedIndividual rdf:about="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0">
+    <NamedIndividual rdf:about="https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/1.0.0">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <terms:title>Airlines Satisfaction Suveys Ontology</terms:title>
-        <prov:specializationOf rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey"/>
-        <prov:wasAttributedTo rdf:resource="file:/home/ahmad/repos/j.gm.uoc.rc@gmail.com/provenance/provenance-en.ttlagent0"/>
+        <prov:specializationOf rdf:resource="https://jgm-uoc-rc.github.io/RC-AirlinesSurvey"/>
         <prov:wasAttributedTo rdf:resource="http://www.essepuntato.it/lode/"/>
         <prov:wasAttributedTo rdf:resource="https://github.com/dgarijo/Widoco/"/>
-        <prov:wasGeneratedAt>2024/04/20</prov:wasGeneratedAt>
+        <prov:wasGeneratedAt>2024/04/28</prov:wasGeneratedAt>
     </NamedIndividual>
 </rdf:RDF>
 
