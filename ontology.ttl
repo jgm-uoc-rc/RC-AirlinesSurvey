@@ -1,21 +1,28 @@
-@prefix : <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey#> .
+@prefix : <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey#> .
+@base <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey#> .
 
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> rdf:type owl:Ontology ;
-                                                                           owl:versionIRI <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0> ;
-                                                                           <http://purl.org/dc/elements/1.1/abstract> "This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights."@en ;
-                                                                           <http://purl.org/dc/elements/1.1/description> "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."@en ;
-                                                                           <http://purl.org/dc/elements/1.1/publisher> "jgm-uoc-rc"@en ;
-                                                                           <http://purl.org/dc/elements/1.1/title> "Airlines Satisfaction Suveys Ontology"@en .
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey> rdf:type owl:Ontology ;
+                                                  owl:versionIRI <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/1.0.0> ;
+                                                  <http://purl.org/dc/elements/1.1/LicenseDocument> "http://www.apache.org/licenses/LICENSE-2.0"@en ;
+                                                  <http://purl.org/dc/elements/1.1/abstract> "This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights."@en ;
+                                                  <http://purl.org/dc/elements/1.1/description> "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."@en ;
+                                                  <http://purl.org/dc/elements/1.1/issued> "2024-04-28:00:00:00"@en ;
+                                                  <http://purl.org/dc/elements/1.1/publisher> "jgm-uoc-rc"@en ;
+                                                  <http://purl.org/dc/elements/1.1/rights> "Copyright (c) 2024, jgarciamena."@en ;
+                                                  <http://purl.org/dc/elements/1.1/title> "Airlines Satisfaction Suveys Ontology"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/LicenseDocument
+<http://purl.org/dc/elements/1.1/LicenseDocument> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/elements/1.1/abstract
 <http://purl.org/dc/elements/1.1/abstract> rdf:type owl:AnnotationProperty .
@@ -33,6 +40,10 @@
 <http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
 
@@ -41,721 +52,721 @@
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> rdf:type owl:AnnotationProperty .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                     owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> ;
-                                                                                     rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                     rdfs:comment "Indicates that the flight takes place on a date"@en ;
-                                                                                     rdfs:label "are Flights"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/areFlights
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/areFlights> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDate> ;
+                                                            rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> ;
+                                                            rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                            rdfs:comment "Indicates that the flight takes place on a date"@en ;
+                                                            rdfs:label "are Flights"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> rdf:type owl:ObjectProperty ;
-                                                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                           owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> ;
-                                                                                           rdf:type owl:FunctionalProperty ,
-                                                                                                    owl:AsymmetricProperty ;
-                                                                                           rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                           rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> ;
-                                                                                           rdfs:comment "Specifies the country to which a city belongs"@en ;
-                                                                                           rdfs:label "belongs to country"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/belongsToCountry
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/belongsToCountry> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCity> ;
+                                                                  rdf:type owl:FunctionalProperty ,
+                                                                           owl:AsymmetricProperty ;
+                                                                  rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                                  rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> ;
+                                                                  rdfs:comment "Specifies the country to which a city belongs"@en ;
+                                                                  rdfs:label "belongs to country"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAFligh> rdf:type owl:ObjectProperty ;
-                                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                    owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> ;
-                                                                                    rdf:type owl:InverseFunctionalProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> ;
-                                                                                    rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                    rdfs:comment "Identifies that a airliner has a flight defined"@en ;
-                                                                                    rdfs:label "has a flight"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasAFligh
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasAFligh> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDefinedFor> ;
+                                                           rdf:type owl:InverseFunctionalProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner> ;
+                                                           rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                           rdfs:comment "Identifies that a airliner has a flight defined"@en ;
+                                                           rdfs:label "has a flight"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> ;
-                                                                                       rdf:type owl:InverseFunctionalProperty ,
-                                                                                                owl:AsymmetricProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> ;
-                                                                                       rdfs:comment "Defines that an Airline has airliners"@en ;
-                                                                                       rdfs:label "has aircrafts"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasAirclafts
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasAirclafts> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOwnedBy> ;
+                                                              rdf:type owl:InverseFunctionalProperty ,
+                                                                       owl:AsymmetricProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner> ;
+                                                              rdfs:comment "Defines that an Airline has airliners"@en ;
+                                                              rdfs:label "has aircrafts"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> rdf:type owl:ObjectProperty ;
-                                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                  rdf:type owl:InverseFunctionalProperty ,
-                                                                                           owl:AsymmetricProperty ;
-                                                                                  rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> ;
-                                                                                  rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                  rdfs:comment "Defines that a country includes the specified city."@en ;
-                                                                                  rdfs:label "has city"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCity
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCity> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:InverseFunctionalProperty ,
+                                                                  owl:AsymmetricProperty ;
+                                                         rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> ;
+                                                         rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                         rdfs:comment "Defines that a country includes the specified city."@en ;
+                                                         rdfs:label "has city"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCountry> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                     owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> ;
-                                                                                     rdf:type owl:FunctionalProperty ,
-                                                                                              owl:AsymmetricProperty ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                     rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> ;
-                                                                                     rdfs:comment "Identifies the passenger's country of origin (nationality)"@en ;
-                                                                                     rdfs:label "has Country"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCountry
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCountry> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnSurvey> ;
+                                                            rdf:type owl:FunctionalProperty ,
+                                                                     owl:AsymmetricProperty ;
+                                                            rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                            rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> ;
+                                                            rdfs:comment "Identifies the passenger's country of origin (nationality)"@en ;
+                                                            rdfs:label "has Country"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> rdf:type owl:ObjectProperty ;
-                                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                  rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                  rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> ;
-                                                                                  rdfs:comment "Defines the date on which a flight takes place"@en ;
-                                                                                  rdfs:label "has date"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDate
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDate> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                         rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> ;
+                                                         rdfs:comment "Defines the date on which a flight takes place"@en ;
+                                                         rdfs:label "has date"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> rdf:type owl:ObjectProperty ;
-                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                         owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> ;
-                                                                                         rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                         rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                         rdfs:comment "Defines the flight destination city"@en ;
-                                                                                         rdfs:label "has destination"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDestination
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDestination> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDestination> ;
+                                                                rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                                rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                                rdfs:comment "Defines the flight destination city"@en ;
+                                                                rdfs:label "has destination"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlight> rdf:type owl:ObjectProperty ;
-                                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                    owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> ;
-                                                                                    rdf:type owl:FunctionalProperty ,
-                                                                                             owl:InverseFunctionalProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                    rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                    rdfs:comment "Associates survey with a flight"@en ;
-                                                                                    rdfs:label "has flight"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlight
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlight> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isReferredOn> ;
+                                                           rdf:type owl:FunctionalProperty ,
+                                                                    owl:InverseFunctionalProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                           rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                           rdfs:comment "Associates survey with a flight"@en ;
+                                                           rdfs:label "has flight"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlightType> rdf:type owl:ObjectProperty ;
-                                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                        owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> ;
-                                                                                        rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                        rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> ;
-                                                                                        rdfs:comment "Relate a survey to the type of flight"@en ;
-                                                                                        rdfs:label "has flight type"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlightType
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlightType> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                                               owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isFlightType> ;
+                                                               rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                               rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType> ;
+                                                               rdfs:comment "Relate a survey to the type of flight"@en ;
+                                                               rdfs:label "has flight type"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasFlights> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                     owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> ;
-                                                                                     rdf:type owl:InverseFunctionalProperty ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> ;
-                                                                                     rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                     rdfs:comment "Identifies that an airline has some flights"@en ;
-                                                                                     rdfs:label "has flights"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlights
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasFlights> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOperatedBy> ;
+                                                            rdf:type owl:InverseFunctionalProperty ;
+                                                            rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline> ;
+                                                            rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                            rdfs:comment "Identifies that an airline has some flights"@en ;
+                                                            rdfs:label "has flights"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> rdf:type owl:ObjectProperty ;
-                                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                    owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                    rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                    rdfs:comment "Defines the flight origin city"@en ;
-                                                                                    rdfs:label "has origin"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasOrigin
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasOrigin> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOriginated> ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                           rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                           rdfs:comment "Defines the flight origin city"@en ;
+                                                           rdfs:label "has origin"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasPublishings> rdf:type owl:ObjectProperty ;
-                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                         owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> ;
-                                                                                         rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> ;
-                                                                                         rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                         rdfs:comment "Defines if a date has Surveys publisheds"@en ;
-                                                                                         rdfs:label "has publishings"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasPublishings
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasPublishings> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPublishedOn> ;
+                                                                rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> ;
+                                                                rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                                rdfs:comment "Defines if a date has Surveys publisheds"@en ;
+                                                                rdfs:label "has publishings"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> rdf:type owl:ObjectProperty ;
-                                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                    owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> ;
-                                                                                    rdf:type owl:FunctionalProperty ,
-                                                                                             owl:InverseFunctionalProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                    rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> ;
-                                                                                    rdfs:comment "Defines that a survey includes a review"@en ;
-                                                                                    rdfs:label "has review"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasReview
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasReview> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPartOf> ;
+                                                           rdf:type owl:FunctionalProperty ,
+                                                                    owl:InverseFunctionalProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                           rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview> ;
+                                                           rdfs:comment "Defines that a survey includes a review"@en ;
+                                                           rdfs:label "has review"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSatisfactionLevel> rdf:type owl:ObjectProperty ;
-                                                                                               rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                               owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> ;
-                                                                                               rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                               rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> ;
-                                                                                               rdfs:comment "Relates a survey to a level of satisfaction"@en ;
-                                                                                               rdfs:label "has satisfaction level"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasSatisfactionLevel
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasSatisfactionLevel> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                      owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isSatisfiedLevel> ;
+                                                                      rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                                      rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> ;
+                                                                      rdfs:comment "Relates a survey to a level of satisfaction"@en ;
+                                                                      rdfs:label "has satisfaction level"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasSeat> rdf:type owl:ObjectProperty ;
-                                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                  owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> ;
-                                                                                  rdf:type owl:InverseFunctionalProperty ;
-                                                                                  rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                  rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                  rdfs:comment "Identifies the seat tipe that a passenger has on the defined flight"@en ;
-                                                                                  rdfs:label "has seat"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasSeat
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasSeat> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnFlight> ;
+                                                         rdf:type owl:InverseFunctionalProperty ;
+                                                         rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                         rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                         rdfs:comment "Identifies the seat tipe that a passenger has on the defined flight"@en ;
+                                                         rdfs:label "has seat"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> rdf:type owl:ObjectProperty ;
-                                                                                      rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                      owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> ;
-                                                                                      rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                      rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                      rdfs:comment "Defines if the flight has stopovers"@en ;
-                                                                                      rdfs:label "has stopover"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasStopover
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasStopover> rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                                             owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isStopevered> ;
+                                                             rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                             rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                             rdfs:comment "Defines if the flight has stopovers"@en ;
+                                                             rdfs:label "has stopover"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> rdf:type owl:ObjectProperty ;
-                                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                  owl:inverseOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> ;
-                                                                                  rdf:type owl:FunctionalProperty ;
-                                                                                  rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                  rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> ;
-                                                                                  rdfs:comment "Defines the type of traveller is the passenger"@en ;
-                                                                                  rdfs:label "has type"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasType
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasType> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         owl:inverseOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isTypeOf> ;
+                                                         rdf:type owl:FunctionalProperty ;
+                                                         rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                         rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType> ;
+                                                         rdfs:comment "Defines the type of traveller is the passenger"@en ;
+                                                         rdfs:label "has type"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdf:type owl:FunctionalProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> ;
-                                                                                       rdfs:comment "Indicates that an airliner does a flights"@en ;
-                                                                                       rdfs:label "is defined for"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDefinedFor
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDefinedFor> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdf:type owl:FunctionalProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner> ;
+                                                              rdfs:comment "Indicates that an airliner does a flights"@en ;
+                                                              rdfs:label "is defined for"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDestination> rdf:type owl:ObjectProperty ;
-                                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                        rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                        rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                        rdfs:comment "Defines if a city is a flight destination"@en ;
-                                                                                        rdfs:label "is destination"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDestination
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDestination> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                                               rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                               rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                               rdfs:comment "Defines if a city is a flight destination"@en ;
+                                                               rdfs:label "is destination"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isFlightType> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                       rdfs:comment "Identifies the flight type classification related to a survey."@en ;
-                                                                                       rdfs:label "is flight type"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isFlightType
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isFlightType> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                              rdfs:comment "Identifies the flight type classification related to a survey."@en ;
+                                                              rdfs:label "is flight type"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnFlight> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                     rdf:type owl:FunctionalProperty ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                     rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                     rdfs:comment "Identifies the seat tipe defined on the flight"@en ;
-                                                                                     rdfs:label "is on Flight"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnFlight
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnFlight> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            rdf:type owl:FunctionalProperty ;
+                                                            rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                            rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                            rdfs:comment "Identifies the seat tipe defined on the flight"@en ;
+                                                            rdfs:label "is on Flight"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOnSurvey> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                     rdf:type owl:InverseFunctionalProperty ;
-                                                                                     rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> ;
-                                                                                     rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                     rdfs:comment "Defines that a country can be identified in a surveys"@en ;
-                                                                                     rdfs:label "is On Survey"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnSurvey
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOnSurvey> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            rdf:type owl:InverseFunctionalProperty ;
+                                                            rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> ;
+                                                            rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                            rdfs:comment "Defines that a country can be identified in a surveys"@en ;
+                                                            rdfs:label "is On Survey"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdf:type owl:FunctionalProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> ;
-                                                                                       rdfs:comment "Indicates that the flight is operated by the airline"@en ;
-                                                                                       rdfs:label "is operated by"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOperatedBy
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOperatedBy> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdf:type owl:FunctionalProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline> ;
+                                                              rdfs:comment "Indicates that the flight is operated by the airline"@en ;
+                                                              rdfs:label "is operated by"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOriginated> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                       rdfs:comment "Defines if a city is origin of a flight"@en ;
-                                                                                       rdfs:label "is originated"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOriginated
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOriginated> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                              rdfs:comment "Defines if a city is origin of a flight"@en ;
+                                                              rdfs:label "is originated"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> rdf:type owl:ObjectProperty ;
-                                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                    rdf:type owl:FunctionalProperty ,
-                                                                                             owl:AsymmetricProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> ;
-                                                                                    rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> ;
-                                                                                    rdfs:comment "Indicates that the airliner is property of an airline"@en ;
-                                                                                    rdfs:label "is owned by"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOwnedBy
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOwnedBy> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           rdf:type owl:FunctionalProperty ,
+                                                                    owl:AsymmetricProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner> ;
+                                                           rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline> ;
+                                                           rdfs:comment "Indicates that the airliner is property of an airline"@en ;
+                                                           rdfs:label "is owned by"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPartOf> rdf:type owl:ObjectProperty ;
-                                                                                   rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                   rdf:type owl:FunctionalProperty ,
-                                                                                            owl:InverseFunctionalProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> ;
-                                                                                   rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                   rdfs:comment "Identifies the user review belongs to a Survey" ;
-                                                                                   rdfs:label "is part of"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPartOf
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPartOf> rdf:type owl:ObjectProperty ;
+                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                          rdf:type owl:FunctionalProperty ,
+                                                                   owl:InverseFunctionalProperty ;
+                                                          rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview> ;
+                                                          rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                          rdfs:comment "Identifies the user review belongs to a Survey" ;
+                                                          rdfs:label "is part of"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> rdf:type owl:ObjectProperty ;
-                                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                        rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                        rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> ;
-                                                                                        rdfs:comment "Indicates the date on the survey is published"@en ;
-                                                                                        rdfs:label "is published on"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPublishedOn
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPublishedOn> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                                               rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                               rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> ;
+                                                               rdfs:comment "Indicates the date on the survey is published"@en ;
+                                                               rdfs:label "is published on"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isReferredOn> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdf:type owl:FunctionalProperty ,
-                                                                                                owl:InverseFunctionalProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                       rdfs:comment "Defines that a flight is refered on a survey"@en ;
-                                                                                       rdfs:label "is refered on"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isReferredOn
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isReferredOn> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdf:type owl:FunctionalProperty ,
+                                                                       owl:InverseFunctionalProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                              rdfs:comment "Defines that a flight is refered on a survey"@en ;
+                                                              rdfs:label "is refered on"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isSatisfiedLevel> rdf:type owl:ObjectProperty ;
-                                                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                           rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> ;
-                                                                                           rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                           rdfs:comment "Identifies the satisfaction level for a survey"@en ;
-                                                                                           rdfs:label "is satisfied level"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isSatisfiedLevel
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isSatisfiedLevel> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> ;
+                                                                  rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                                  rdfs:comment "Identifies the satisfaction level for a survey"@en ;
+                                                                  rdfs:label "is satisfied level"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered> rdf:type owl:ObjectProperty ;
-                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                       rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> ;
-                                                                                       rdfs:comment "Defines if a city is stopover on a flight"@en ;
-                                                                                       rdfs:label "is stopovered"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isStopevered
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isStopevered> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                              rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> ;
+                                                              rdfs:comment "Defines if a city is stopover on a flight"@en ;
+                                                              rdfs:label "is stopovered"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isTypeOf> rdf:type owl:ObjectProperty ;
-                                                                                   rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> ;
-                                                                                   rdfs:range <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                   rdfs:comment "Identifies the tipe of traveller asigned on the flight"@en ;
-                                                                                   rdfs:label "is type of"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isTypeOf
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isTypeOf> rdf:type owl:ObjectProperty ;
+                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                          rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType> ;
+                                                          rdfs:range <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                          rdfs:comment "Identifies the tipe of traveller asigned on the flight"@en ;
+                                                          rdfs:label "is type of"@en .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> rdf:type owl:DatatypeProperty ;
-                                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                   rdf:type owl:FunctionalProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> ;
-                                                                                   rdfs:range xsd:string ;
-                                                                                   rdfs:comment "The review body text"@en ;
-                                                                                   rdfs:isDefinedBy "https://dbpedia.org/property/body"@en ;
-                                                                                   rdfs:label "body"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/bodyText
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/bodyText> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdf:type owl:FunctionalProperty ;
+                                                          rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview> ;
+                                                          rdfs:range xsd:string ;
+                                                          rdfs:comment "The review body text"@en ;
+                                                          rdfs:isDefinedBy "https://dbpedia.org/property/body"@en ;
+                                                          rdfs:label "body"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/cityName> rdf:type owl:DatatypeProperty ;
-                                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                   rdf:type owl:FunctionalProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> ;
-                                                                                   rdfs:range xsd:string ;
-                                                                                   rdfs:comment "The textual name of the city"@en ;
-                                                                                   rdfs:isDefinedBy "https://dbpedia.org/property/cityName"@en ;
-                                                                                   rdfs:label "City Name"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/cityName
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/cityName> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdf:type owl:FunctionalProperty ;
+                                                          rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> ;
+                                                          rdfs:range xsd:string ;
+                                                          rdfs:comment "The textual name of the city"@en ;
+                                                          rdfs:isDefinedBy "https://dbpedia.org/property/cityName"@en ;
+                                                          rdfs:label "City Name"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/countryName> rdf:type owl:DatatypeProperty ;
-                                                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                      rdf:type owl:FunctionalProperty ;
-                                                                                      rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> ;
-                                                                                      rdfs:range xsd:string ;
-                                                                                      rdfs:comment "The textual name of the country"@en ;
-                                                                                      rdfs:isDefinedBy "https://dbpedia.org/property/countryName"@en ;
-                                                                                      rdfs:label "country name"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/countryName
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/countryName> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdf:type owl:FunctionalProperty ;
+                                                             rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> ;
+                                                             rdfs:range xsd:string ;
+                                                             rdfs:comment "The textual name of the country"@en ;
+                                                             rdfs:isDefinedBy "https://dbpedia.org/property/countryName"@en ;
+                                                             rdfs:label "country name"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/dateValue> rdf:type owl:DatatypeProperty ;
-                                                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> ;
-                                                                                    rdfs:range xsd:dateTime ;
-                                                                                    rdfs:comment "The value of the date"@en ;
-                                                                                    rdfs:label "date value"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/dateValue
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/dateValue> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> ;
+                                                           rdfs:range xsd:dateTime ;
+                                                           rdfs:comment "The value of the date"@en ;
+                                                           rdfs:label "date value"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/ratingValue> rdf:type owl:DatatypeProperty ;
-                                                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                      rdf:type owl:FunctionalProperty ;
-                                                                                      rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                      rdfs:range xsd:integer ;
-                                                                                      rdfs:comment "The value of the rating"@en ;
-                                                                                      rdfs:label "rating value"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/ratingValue
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/ratingValue> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdf:type owl:FunctionalProperty ;
+                                                             rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                             rdfs:range xsd:integer ;
+                                                             rdfs:comment "The value of the rating"@en ;
+                                                             rdfs:label "rating value"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> rdf:type owl:DatatypeProperty ;
-                                                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                      rdf:type owl:FunctionalProperty ;
-                                                                                      rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                      rdfs:range xsd:boolean ;
-                                                                                      rdfs:comment "The suggestion made by the passenger about the service"@en ;
-                                                                                      rdfs:label "recommended"@en ;
-                                                                                      rdfs:seeAlso "https://dbpedia.org/resource/Recommender_system"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/recommended
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/recommended> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdf:type owl:FunctionalProperty ;
+                                                             rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                             rdfs:range xsd:boolean ;
+                                                             rdfs:comment "The suggestion made by the passenger about the service"@en ;
+                                                             rdfs:label "recommended"@en ;
+                                                             rdfs:seeAlso "https://dbpedia.org/resource/Recommender_system"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/titleText> rdf:type owl:DatatypeProperty ;
-                                                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                    rdf:type owl:FunctionalProperty ;
-                                                                                    rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> ;
-                                                                                    rdfs:range xsd:string ;
-                                                                                    <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/ontology/originalTitle"@en ;
-                                                                                    rdfs:comment "The review title text"@en ;
-                                                                                    rdfs:isDefinedBy "https://dbpedia.org/property/title"@en ;
-                                                                                    rdfs:label "title"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/titleText
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/titleText> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                           rdf:type owl:FunctionalProperty ;
+                                                           rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview> ;
+                                                           rdfs:range xsd:string ;
+                                                           rdfs:comment "The review title text"@en ;
+                                                           rdfs:isDefinedBy "https://dbpedia.org/property/title"@en ;
+                                                           rdfs:label "title"@en ;
+                                                           <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/ontology/originalTitle"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> rdf:type owl:DatatypeProperty ;
-                                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                   rdf:type owl:FunctionalProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> ;
-                                                                                   rdfs:range xsd:boolean ;
-                                                                                   rdfs:comment "Confirmation that the passenger took the related flight"@en ;
-                                                                                   rdfs:label "verified"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/verified
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/verified> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdf:type owl:FunctionalProperty ;
+                                                          rdfs:domain <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> ;
+                                                          rdfs:range xsd:boolean ;
+                                                          rdfs:comment "Confirmation that the passenger took the related flight"@en ;
+                                                          rdfs:label "verified"@en .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasAirclafts> ;
-                                                                                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                    owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner>
-                                                                                                  ] ;
-                                                                                  <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline"@en ;
-                                                                                  rdfs:comment "An organization carrying passengers by airplanes"@en ;
-                                                                                  rdfs:label "Airline"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasAirclafts> ;
+                                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner>
+                                                                         ] ;
+                                                         rdfs:comment "An organization carrying passengers by airplanes"@en ;
+                                                         rdfs:label "Airline"@en ;
+                                                         <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                     owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> ;
-                                                                                                     owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline>
-                                                                                                   ] ,
-                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                     owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOwnedBy> ;
-                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                     owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline>
-                                                                                                   ] ;
-                                                                                   <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airliner"@en ;
-                                                                                   rdfs:comment "An airliner is a type of aircraft for transporting passengers and air cargo. Such aircraft are most often operated by airlines. Although the definition of an airliner can vary from country to country, an airliner is typically defined as an airplane intended for carrying multiple passengers or cargo in commercial service. The largest of them are wide-body jets which are also called twin-aisle because they generally have two separate aisles running from the front to the back of the passenger cabin. These are usually used for long-haul flights between airline hubs and major cities. A smaller, more common class of airliners is the narrow-body or single-aisle. These are generally used for short to medium-distance flights with fewer passengers than their wide-body counterparts"@en ;
-                                                                                   rdfs:label "Airliner"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner> rdf:type owl:Class ;
+                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOwnedBy> ;
+                                                                            owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline>
+                                                                          ] ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOwnedBy> ;
+                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                            owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline>
+                                                                          ] ;
+                                                          rdfs:comment "An airliner is a type of aircraft for transporting passengers and air cargo. Such aircraft are most often operated by airlines. Although the definition of an airliner can vary from country to country, an airliner is typically defined as an airplane intended for carrying multiple passengers or cargo in commercial service. The largest of them are wide-body jets which are also called twin-aisle because they generally have two separate aisles running from the front to the back of the passenger cabin. These are usually used for long-haul flights between airline hubs and major cities. A smaller, more common class of airliners is the narrow-body or single-aisle. These are generally used for short to medium-distance flights with fewer passengers than their wide-body counterparts"@en ;
+                                                          rdfs:label "Airliner"@en ;
+                                                          <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airliner"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass> rdf:type owl:Class ;
-                                                                                        rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                        rdfs:comment "Represents a class of seats that offers services aimed at business travelers."@en ;
-                                                                                        rdfs:label "BussinesClass"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/BusinessClass
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/BusinessClass> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                               rdfs:comment "Represents a class of seats that offers services aimed at business travelers."@en ;
+                                                               rdfs:label "BussinesClass"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> ;
-                                                                                                 owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country>
-                                                                                               ] ,
-                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/belongsToCountry> ;
-                                                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                 owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country>
-                                                                                               ] ;
-                                                                               <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/City"@en ;
-                                                                               rdfs:comment "A relatively large and permanent settlement, particularly a large urban settlement"@en ;
-                                                                               rdfs:label "City" .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/belongsToCountry> ;
+                                                                        owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/belongsToCountry> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country>
+                                                                      ] ;
+                                                      rdfs:comment "A relatively large and permanent settlement, particularly a large urban settlement"@en ;
+                                                      rdfs:label "City" ;
+                                                      <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/City"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> ;
-                                                                                                    owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                  ] ,
-                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity> ;
-                                                                                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                    owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                  ] ;
-                                                                                  <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Country"@en ;
-                                                                                  rdfs:comment "The region where the entity  is located or where the people are from"@en ;
-                                                                                  rdfs:label "Country"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCity> ;
+                                                                           owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasCity> ;
+                                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                         ] ;
+                                                         rdfs:comment "The region where the entity  is located or where the people are from"@en ;
+                                                         rdfs:label "Country"@en ;
+                                                         <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Country"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                 owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/areFlights> ;
-                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight>
-                                                                                               ] ;
-                                                                               <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Calendar_date"@en ;
-                                                                               rdfs:comment "Represents a date associated with an event"@en ;
-                                                                               rdfs:label "Date" .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/areFlights> ;
+                                                                        owl:someValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight>
+                                                                      ] ;
+                                                      rdfs:comment "Represents a date associated with an event"@en ;
+                                                      rdfs:label "Date" ;
+                                                      <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Calendar_date"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight> rdf:type owl:Class ;
-                                                                                         rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> ;
-                                                                                         owl:disjointWith <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> ;
-                                                                                         rdfs:comment "A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country."@en ;
-                                                                                         rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Domestic_flight"@en ;
-                                                                                         rdfs:label "Domestic Flight"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/DomesticFlight
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/DomesticFlight> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType> ;
+                                                                owl:disjointWith <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/InternationalFlight> ;
+                                                                rdfs:comment "A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country."@en ;
+                                                                rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Domestic_flight"@en ;
+                                                                rdfs:label "Domestic Flight"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass> rdf:type owl:Class ;
-                                                                                       rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                       rdfs:comment "Represents a standard seating class with basic services for general passengers."@en ;
-                                                                                       rdfs:label "EconomyClass"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/EconomyClass
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/EconomyClass> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                              rdfs:comment "Represents a standard seating class with basic services for general passengers."@en ;
+                                                              rdfs:label "EconomyClass"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> ;
-                                                                                    rdfs:comment "Very good of its kind"@en ;
-                                                                                    rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/excellent"@en ;
-                                                                                    rdfs:label "Excellent"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Excellent
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Excellent> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> ;
+                                                           rdfs:comment "Very good of its kind"@en ;
+                                                           rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/excellent"@en ;
+                                                           rdfs:label "Excellent"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                     rdfs:comment "Represents the best class of seats with special services for first-class passengers"@en ;
-                                                                                     rdfs:label "FirstClass"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FirstClass
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FirstClass> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                            rdfs:comment "Represents the best class of seats with special services for first-class passengers"@en ;
+                                                            rdfs:label "FirstClass"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight> rdf:type owl:Class ;
-                                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasStopover> ;
-                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDate> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasDestination> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasOrigin> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isDefinedFor> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isOperatedBy> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline>
-                                                                                                 ] ;
-                                                                                 rdfs:comment "Represents the flight operated by an airline on a date, given a especify airliner with a set of origin, destination, and possible stopover cities."@en ;
-                                                                                 rdfs:label "Flight" .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight> rdf:type owl:Class ;
+                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasStopover> ;
+                                                                          owl:someValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDate> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDestination> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasOrigin> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDefinedFor> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOperatedBy> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDate> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasDestination> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasOrigin> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isDefinedFor> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isOperatedBy> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline>
+                                                                        ] ;
+                                                        rdfs:comment "Represents the flight operated by an airline on a date, given a especify airliner with a set of origin, destination, and possible stopover cities."@en ;
+                                                        rdfs:label "Flight" .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf owl:Thing ;
-                                                                                     rdfs:comment "Inferred classification of flight types based on the relationship between the country of origin and the country of destination of the flight."@en ;
-                                                                                     rdfs:label "Flight type"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType> rdf:type owl:Class ;
+                                                            rdfs:subClassOf owl:Thing ;
+                                                            rdfs:comment "Inferred classification of flight types based on the relationship between the country of origin and the country of destination of the flight."@en ;
+                                                            rdfs:label "Flight type"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> ;
-                                                                               rdfs:comment "Of a favorable character or tendency"@en ;
-                                                                               rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/good"@en ;
-                                                                               rdfs:label "Good"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Good
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Good> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> ;
+                                                      rdfs:comment "Of a favorable character or tendency"@en ;
+                                                      rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/good"@en ;
+                                                      rdfs:label "Good"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType> ;
-                                                                                              rdfs:comment "An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries."@en ;
-                                                                                              rdfs:isDefinedBy "https://en.wikipedia.org/wiki/International_flight"@en ;
-                                                                                              rdfs:label "International Flight"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/InternationalFlight
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/InternationalFlight> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType> ;
+                                                                     rdfs:comment "An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries."@en ;
+                                                                     rdfs:isDefinedBy "https://en.wikipedia.org/wiki/International_flight"@en ;
+                                                                     rdfs:label "International Flight"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> ;
-                                                                               rdfs:comment "Less than adequate"@en ;
-                                                                               rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/poor"@en ;
-                                                                               rdfs:label "Poor"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Poor
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Poor> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> ;
+                                                      rdfs:comment "Less than adequate"@en ;
+                                                      rdfs:isDefinedBy "https://www.merriam-webster.com/dictionary/poor"@en ;
+                                                      rdfs:label "Poor"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> ;
-                                                                                              rdfs:comment "Represents an upgraded for the economic, offerings services between economy and business class"@en ;
-                                                                                              rdfs:label "PremiumEconomyClass"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/PremiumEconomyClass
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/PremiumEconomyClass> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> ;
+                                                                     rdfs:comment "Represents an upgraded for the economic, offerings services between economy and business class"@en ;
+                                                                     rdfs:label "PremiumEconomyClass"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel> rdf:type owl:Class ;
-                                                                                            rdfs:comment "Inferred classification of the level of satisfaction based on the survey rating."@en ;
-                                                                                            rdfs:label "Satisfaction Level"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel> rdf:type owl:Class ;
+                                                                   rdfs:comment "Inferred classification of the level of satisfaction based on the survey rating."@en ;
+                                                                   rdfs:label "Satisfaction Level"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat> rdf:type owl:Class ;
-                                                                               <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline_seat"@en ;
-                                                                               rdfs:comment "An airline seat is a seat on an airliner in which passengers are accommodated for the duration of the journey. Such seats are usually arranged in rows running across the airplane's fuselage. A diagram of such seats in an aircraft is called an aircraft seat map"@en ;
-                                                                               rdfs:label "Seat" .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat> rdf:type owl:Class ;
+                                                      rdfs:comment "An airline seat is a seat on an airliner in which passengers are accommodated for the duration of the journey. Such seats are usually arranged in rows running across the airplane's fuselage. A diagram of such seats in an aircraft is called an aircraft seat map"@en ;
+                                                      rdfs:label "Seat" ;
+                                                      <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/resource/Airline_seat"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Survey> rdf:type owl:Class ;
-                                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> ;
-                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasReview> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasType> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isPublishedOn> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onClass <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date>
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> ;
-                                                                                                   owl:allValuesFrom xsd:boolean
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> ;
-                                                                                                   owl:allValuesFrom xsd:boolean
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/recommended> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onDataRange xsd:boolean
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/verified> ;
-                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                   owl:onDataRange xsd:boolean
-                                                                                                 ] ;
-                                                                                 <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Survey_(human_research)"@en ;
-                                                                                 rdfs:comment "In research of human subjects, a survey is a list of questions aimed for extracting specific data from a particular group of people. Surveys may be conducted by phone, mail, via the internet, and also at street corners or in malls. Surveys are used to gather or gain knowledge in fields such as social research and demography"@en ;
-                                                                                 rdfs:label "Survey"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Survey> rdf:type owl:Class ;
+                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasReview> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasType> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPublishedOn> ;
+                                                                          owl:allValuesFrom <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasReview> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/hasType> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/isPublishedOn> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/recommended> ;
+                                                                          owl:allValuesFrom xsd:boolean
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/verified> ;
+                                                                          owl:allValuesFrom xsd:boolean
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/recommended> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onDataRange xsd:boolean
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/verified> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onDataRange xsd:boolean
+                                                                        ] ;
+                                                        rdfs:comment "In research of human subjects, a survey is a list of questions aimed for extracting specific data from a particular group of people. Surveys may be conducted by phone, mail, via the internet, and also at street corners or in malls. Surveys are used to gather or gain knowledge in fields such as social research and demography"@en ;
+                                                        rdfs:label "Survey"@en ;
+                                                        <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/rdfs:sameAs> "https://dbpedia.org/page/Survey_(human_research)"@en .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType> rdf:type owl:Class ;
-                                                                                        rdfs:comment "Passenger classification based on travel puposes and group size"@en ;
-                                                                                        rdfs:label "TravellerType" .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType> rdf:type owl:Class ;
+                                                               rdfs:comment "Passenger classification based on travel puposes and group size"@en ;
+                                                               rdfs:label "TravellerType" .
 
 
-###  http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview
-<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview> rdf:type owl:Class ;
-                                                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                       owl:onProperty <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/bodyText> ;
-                                                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                       owl:onDataRange xsd:string
-                                                                                                     ] ;
-                                                                                     rdfs:comment "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service. User reviews are commonly provided by consumers who volunteer to write the review, rather than professionals who are paid to evaluate the product or service. User reviews might be compared to professional nonprofit reviews from a consumer organization, or to promotional reviews from an advertiser or company marketing a product. Growth of social media platforms has enabled the facilitation of interaction between consumers after a review has been placed on online communities such as blogs, internet forums or other popular platforms" ;
-                                                                                     rdfs:isDefinedBy "http://dbpedia.org/resource/User_review"@en ;
-                                                                                     rdfs:label "User review"@en ;
-                                                                                     rdfs:seeAlso "http://www.wikidata.org/entity/Q20058247"@en .
+###  https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview
+<https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview> rdf:type owl:Class ;
+                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/bodyText> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange xsd:string
+                                                                            ] ;
+                                                            rdfs:comment "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service. User reviews are commonly provided by consumers who volunteer to write the review, rather than professionals who are paid to evaluate the product or service. User reviews might be compared to professional nonprofit reviews from a consumer organization, or to promotional reviews from an advertiser or company marketing a product. Growth of social media platforms has enabled the facilitation of interaction between consumers after a review has been placed on online communities such as blogs, internet forums or other popular platforms" ;
+                                                            rdfs:isDefinedBy "http://dbpedia.org/resource/User_review"@en ;
+                                                            rdfs:label "User review"@en ;
+                                                            rdfs:seeAlso "http://www.wikidata.org/entity/Q20058247"@en .
 
 
 #################################################################
@@ -770,34 +781,34 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airline>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Airliner>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/City>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Country>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Date>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Flight>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/TravellerType>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/UserReview>
+  owl:members ( <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airline>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Airliner>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/City>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Country>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Date>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Flight>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/TravellerType>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/UserReview>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass>
+  owl:members ( <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/BusinessClass>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/EconomyClass>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FirstClass>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/PremiumEconomyClass>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good>
-                <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor>
+  owl:members ( <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Excellent>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Good>
+                <https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Poor>
               )
 ] .
 
 
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
