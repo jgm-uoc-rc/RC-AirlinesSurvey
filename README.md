@@ -2,10 +2,10 @@ About Airlines Survey Ontology.
 ===================
 This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys.
 
-URL.
+DOCUMENTATION.
 ===================
-https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/index.html
+https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/index-en.html
 
 Creator
 ==========
-Created by: jgm
+By: jgm
