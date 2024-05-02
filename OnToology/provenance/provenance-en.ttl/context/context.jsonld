@@ -6,9 +6,6 @@
     "wasAttributedTo" : {
       "@id" : "http://www.w3.org/ns/prov#wasAttributedTo"
     },
-    "name" : {
-      "@id" : "http://xmlns.com/foaf/0.1/name"
-    },
     "wasGeneratedAt" : {
       "@id" : "http://www.w3.org/ns/prov#wasGeneratedAt"
     },
@@ -17,9 +14,6 @@
     },
     "Entity" : {
       "@id" : "http://www.w3.org/ns/prov#Entity"
-    },
-    "Agent" : {
-      "@id" : "http://www.w3.org/ns/prov#Agent"
     }
   }
 }
