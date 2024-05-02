@@ -1,16 +1,16 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor" "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass" ; /*classes style*/
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/DomesticFlight" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Excellent" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FirstClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Good" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/PremiumEconomyClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/BusinessClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/InternationalFlight" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
-	"http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/EconomyClass" -> "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Good" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/BusinessClass" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/DomesticFlight" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Poor" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/PremiumEconomyClass" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FirstClass" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/EconomyClass" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/InternationalFlight" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType" "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Excellent" ; /*classes style*/
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Poor" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/DomesticFlight" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/PremiumEconomyClass" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Good" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/EconomyClass" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Excellent" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/SatisfactionLevel" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/InternationalFlight" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FlightType" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/BusinessClass" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
+	"https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/FirstClass" -> "https://jgm-uoc-rc.github.io/RC-AirlinesSurvey/Seat" [ label = "rdfs:subClassOf" ];
 
 }
