@@ -390,6 +390,12 @@
   "@id" : "http://purl.org/dc/elements/1.1/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -405,6 +411,10 @@
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
     "@value" : "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@language" : "en",
+    "@value" : "jgm-uoc-rc"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "en",

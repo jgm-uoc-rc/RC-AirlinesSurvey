@@ -13,6 +13,7 @@
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0"/>
         <dc:abstract xml:lang="en">This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights.</dc:abstract>
         <dc:description xml:lang="en">This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys.</dc:description>
+        <dc:publisher xml:lang="en">jgm-uoc-rc</dc:publisher>
         <dc:title xml:lang="en">Airlines Satisfaction Suveys Ontology</dc:title>
     </owl:Ontology>
     
@@ -41,6 +42,20 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
     
 
 
