@@ -2,6 +2,7 @@
 <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/1.0.0> .
 <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/abstract> "This ontology represents the domain of the opinions of commercial airline customers regarding their responses based on satisfaction surveys with the service received when using commercial flights."@en .
 <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/description> "This ontology represents the opinions of commercial airline customers according to flight satisfaction surveys."@en .
+<http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/publisher> "jgm-uoc-rc"@en .
 <http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey> <http://purl.org/dc/elements/1.1/title> "Airlines Satisfaction Suveys Ontology"@en .
 # 
 # 
@@ -17,6 +18,12 @@
 # 
 # http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/issued
+<http://purl.org/dc/elements/1.1/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

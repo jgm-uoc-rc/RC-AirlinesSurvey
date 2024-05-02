@@ -39,6 +39,9 @@
     "Poor" : {
       "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/Poor"
     },
+    "issued" : {
+      "@id" : "http://purl.org/dc/elements/1.1/issued"
+    },
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
@@ -167,6 +170,9 @@
     "hasCity" : {
       "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/hasCity",
       "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
     },
     "isStopevered" : {
       "@id" : "http://www.semanticweb.org/jgarciamena/ontologies/2024/3/AirlinesSurvey/isStopevered",
